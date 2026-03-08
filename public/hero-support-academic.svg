@@ -1,0 +1,60 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Academic support center illustration</title>
+  <desc id="desc">An illustration showing an academic support desk, books, help chat, and collaborative guidance symbols.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EEF3FF"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2D5FD8"/>
+      <stop offset="1" stop-color="#7FA0F3"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CE9A27"/>
+      <stop offset="1" stop-color="#E6C068"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1F3A8A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="110" width="1380" height="680" rx="34" fill="#FFFFFF"/>
+  </g>
+
+  <text x="220" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="750" fill="#173F89">Academic Support Center</text>
+  <text x="220" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="500" fill="#3B61AA">Clear guidance for projects, navigation, and collaboration</text>
+
+  <line x1="220" y1="342" x2="1380" y2="342" stroke="#E3EBFF" stroke-width="2"/>
+
+  <!-- Left: support desk card -->
+  <rect x="220" y="390" width="420" height="300" rx="24" fill="#F7FAFF" stroke="#D5E1FF"/>
+  <text x="260" y="450" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#214895">Support Topics</text>
+  <rect x="260" y="490" width="300" height="20" rx="10" fill="#3B66BF"/>
+  <rect x="260" y="522" width="260" height="20" rx="10" fill="#5A82D7"/>
+  <rect x="260" y="554" width="285" height="20" rx="10" fill="#7EA0E7"/>
+  <rect x="260" y="586" width="240" height="20" rx="10" fill="#A6BFF1"/>
+
+  <!-- Center: chat/help bubble -->
+  <rect x="700" y="390" width="360" height="300" rx="24" fill="#FFFFFF" stroke="#D5E1FF"/>
+  <text x="740" y="450" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#214895">Guided Help</text>
+  <rect x="740" y="486" width="260" height="62" rx="18" fill="#EAF1FF"/>
+  <circle cx="772" cy="517" r="8" fill="#4B72CC"/>
+  <circle cx="805" cy="517" r="8" fill="#4B72CC"/>
+  <circle cx="838" cy="517" r="8" fill="#4B72CC"/>
+  <path d="M930 560L960 586L998 548" stroke="#3F66BF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right: kindness/collaboration -->
+  <rect x="1120" y="390" width="260" height="300" rx="24" fill="#FFFBF2" stroke="#EEDFB7"/>
+  <text x="1155" y="450" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#7B5515">Kindness</text>
+  <path d="M1252 590C1224 565 1188 547 1188 514C1188 486 1208 467 1232 467C1248 467 1261 475 1272 488C1283 475 1296 467 1312 467C1336 467 1356 486 1356 514C1356 547 1320 565 1292 590L1272 610L1252 590Z" fill="url(#gold)"/>
+  <circle cx="1222" cy="645" r="11" fill="#D8AE4D"/>
+  <circle cx="1272" cy="645" r="11" fill="#D8AE4D"/>
+  <circle cx="1322" cy="645" r="11" fill="#D8AE4D"/>
+
+  <text x="800" y="748" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" fill="#234B95">Support that is structured, research-aware, and human-centered</text>
+</svg>
