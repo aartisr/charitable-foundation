@@ -1,0 +1,20 @@
+# Harmony Hope Foundation
+
+> A charitable foundation focused on measurable community impact through transparent giving, volunteer coordination, and dignity-first support programs.
+
+## Key Pages
+
+- / — Homepage with donation and volunteer pathways
+- /support-center — Match Desk for people needing help and donors/volunteers offering help
+- /testimony — Founding members and trust-building narrative
+- /blog — Stories, impact updates, and field learnings
+- /privacy-policy — Privacy and data commitments
+- /terms-of-service — Terms of service
+
+## Topics
+
+- Nonprofit impact and transparency
+- Monthly donor programs
+- Volunteer matching and community coordination
+- Education support and family essentials
+- Community resilience and practical aid delivery
