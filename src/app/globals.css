@@ -1,0 +1,173 @@
+@import "tailwindcss";
+@import "../styles/theme.css";
+@import "../styles/theme-v4.css";
+
+/* Scan shared-ui package for Tailwind classes */
+@source "../../packages/shared-ui/src/**/*.tsx";
+@source "../../packages/shared-ui/src/**/*.ts";
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 1000;
+  border-radius: 9999px;
+  padding: 0.55rem 0.95rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+:root {
+  --site-shadow-soft: 0 10px 30px color-mix(in oklch, var(--foreground) 8%, transparent);
+  --site-shadow-card: 0 8px 24px color-mix(in oklch, var(--foreground) 10%, transparent);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(75rem 45rem at 90% -10%, color-mix(in oklch, var(--primary) 10%, transparent), transparent 60%),
+    radial-gradient(65rem 40rem at -10% 20%, color-mix(in oklch, var(--secondary) 10%, transparent), transparent 60%);
+}
+
+a,
+button,
+input {
+  transition: all 180ms ease;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.site-shell section {
+  position: relative;
+}
+
+.site-shell section > div {
+  width: min(100%, 84rem);
+  margin-inline: auto;
+}
+
+.site-shell [class*="rounded-xl"],
+.site-shell [class*="rounded-2xl"],
+.site-shell article,
+.site-shell .card {
+  box-shadow: var(--site-shadow-card);
+}
+
+.site-shell h1,
+.site-shell h2,
+.site-shell h3 {
+  overflow-wrap: anywhere;
+}
+
+.site-shell p {
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .site-shell section {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .site-shell section > div {
+    width: min(100%, 72rem);
+    padding-inline: 1.25rem;
+  }
+
+  .site-shell h1 {
+    font-size: clamp(2.2rem, 4.6vw, 3.2rem);
+    line-height: 1.12;
+  }
+
+  .site-shell h2 {
+    font-size: clamp(1.7rem, 3.2vw, 2.25rem);
+    line-height: 1.18;
+  }
+
+  .site-shell p {
+    font-size: 1.02rem;
+    line-height: 1.7;
+  }
+
+  .site-shell a,
+  .site-shell button {
+    min-height: 42px;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-shell h1 {
+    font-size: clamp(1.85rem, 8vw, 2.45rem) !important;
+    line-height: 1.15;
+  }
+
+  .site-shell h2 {
+    font-size: clamp(1.45rem, 6vw, 1.9rem) !important;
+    line-height: 1.2;
+  }
+
+  .site-shell p {
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-shell h1 {
+    font-size: clamp(1.65rem, 9vw, 2rem) !important;
+  }
+
+  .site-shell h2 {
+    font-size: clamp(1.3rem, 7vw, 1.65rem) !important;
+  }
+
+  .site-shell section {
+    padding-inline: 0.9rem;
+  }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+  .site-shell section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
