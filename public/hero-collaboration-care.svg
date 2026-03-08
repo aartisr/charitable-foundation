@@ -1,0 +1,79 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Volunteers, donors, help seekers and coordinators working together</title>
+  <desc id="desc">An illustration showing four groups around a shared heart of care and coordinated support.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFE9D5"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF8F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.22">
+    <circle cx="800" cy="450" r="300" fill="#FFEDD5"/>
+    <circle cx="800" cy="450" r="220" fill="#FED7AA"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="140" y="150" width="360" height="220" rx="26" fill="url(#card)"/>
+    <rect x="1100" y="150" width="360" height="220" rx="26" fill="url(#card)"/>
+    <rect x="140" y="530" width="360" height="220" rx="26" fill="url(#card)"/>
+    <rect x="1100" y="530" width="360" height="220" rx="26" fill="url(#card)"/>
+  </g>
+
+  <path d="M500 260 C620 300, 680 340, 760 420" stroke="#FB923C" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14"/>
+  <path d="M1100 260 C980 300, 930 340, 840 420" stroke="#FB923C" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14"/>
+  <path d="M500 640 C620 600, 680 560, 760 490" stroke="#FB923C" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14"/>
+  <path d="M1100 640 C980 600, 930 560, 840 490" stroke="#FB923C" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 14"/>
+
+  <g>
+    <circle cx="800" cy="450" r="96" fill="#FF7200"/>
+    <path d="M800 495 C760 462, 726 434, 726 399 C726 376, 744 358, 767 358 C782 358, 794 366, 800 378 C806 366, 818 358, 833 358 C856 358, 874 376, 874 399 C874 434, 840 462, 800 495Z" fill="#FFFFFF"/>
+    <text x="800" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">CARE</text>
+  </g>
+
+  <g>
+    <circle cx="220" cy="220" r="24" fill="#FDBA74"/>
+    <circle cx="280" cy="220" r="24" fill="#FDBA74"/>
+    <rect x="200" y="248" width="100" height="52" rx="20" fill="#FED7AA"/>
+    <text x="320" y="245" font-family="Inter, Arial, sans-serif" font-size="32">🤝</text>
+    <text x="180" y="330" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#7C2D12">Volunteers</text>
+    <text x="180" y="360" font-family="Inter, Arial, sans-serif" font-size="21" fill="#9A3412">Serve with time, skills, and heart</text>
+  </g>
+
+  <g>
+    <circle cx="1180" cy="220" r="24" fill="#FDBA74"/>
+    <circle cx="1240" cy="220" r="24" fill="#FDBA74"/>
+    <rect x="1160" y="248" width="100" height="52" rx="20" fill="#FED7AA"/>
+    <text x="1285" y="245" font-family="Inter, Arial, sans-serif" font-size="32">💛</text>
+    <text x="1140" y="330" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#7C2D12">Donors</text>
+    <text x="1140" y="360" font-family="Inter, Arial, sans-serif" font-size="21" fill="#9A3412">Fuel reliable support each month</text>
+  </g>
+
+  <g>
+    <circle cx="220" cy="600" r="24" fill="#FDBA74"/>
+    <circle cx="280" cy="600" r="24" fill="#FDBA74"/>
+    <rect x="200" y="628" width="100" height="52" rx="20" fill="#FED7AA"/>
+    <text x="320" y="625" font-family="Inter, Arial, sans-serif" font-size="32">🆘</text>
+    <text x="180" y="710" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#7C2D12">Help Seekers</text>
+    <text x="180" y="740" font-family="Inter, Arial, sans-serif" font-size="21" fill="#9A3412">Receive dignified, timely care</text>
+  </g>
+
+  <g>
+    <circle cx="1180" cy="600" r="24" fill="#FDBA74"/>
+    <circle cx="1240" cy="600" r="24" fill="#FDBA74"/>
+    <rect x="1160" y="628" width="100" height="52" rx="20" fill="#FED7AA"/>
+    <text x="1285" y="625" font-family="Inter, Arial, sans-serif" font-size="32">🧭</text>
+    <text x="1140" y="710" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" fill="#7C2D12">Coordinators</text>
+    <text x="1140" y="740" font-family="Inter, Arial, sans-serif" font-size="21" fill="#9A3412">Match needs with action fast</text>
+  </g>
+</svg>
