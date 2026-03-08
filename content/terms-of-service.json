@@ -1,0 +1,265 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Our Story", "href": "/testimony" },
+          { "label": "Programs", "href": "/support-center" },
+          { "label": "Impact Journal", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" }
+        ],
+        "ctaButton": {
+          "label": "Join the Mission",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "minimal-type",
+        "heading": "Terms of Service",
+        "subheading": "Effective Date: 03/07/2026",
+        "description": "These terms explain how to use Harmony Hope Foundation’s digital services responsibly and respectfully.",
+        "highlights": [
+          { "text": "Clear use expectations" },
+          { "text": "Respectful and lawful participation" },
+          { "text": "Transparent legal boundaries" }
+        ],
+        "proofPoints": [
+          { "value": "13+", "label": "Minimum age" },
+          { "value": "18", "label": "Guardian permission threshold" },
+          { "value": "0", "label": "Guarantee of uninterrupted service" }
+        ],
+        "primaryCta": {
+          "label": "Contact Support",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        "image": "",
+        "imageAlt": "Terms",
+        "animation": "fade-in",
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-2",
+        "heading": "Terms at a Glance",
+        "description": "Simple principles for safe and constructive participation.",
+        "columns": 2,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "✅",
+            "title": "Use means acceptance",
+            "description": "By using our services, you agree to these terms."
+          },
+          {
+            "icon": "🤝",
+            "title": "Respectful conduct",
+            "description": "Use our platforms lawfully and in ways that protect others’ dignity and safety."
+          },
+          {
+            "icon": "🔐",
+            "title": "Account responsibility",
+            "description": "If you create an account, keep credentials secure and information accurate."
+          },
+          {
+            "icon": "⚖️",
+            "title": "Fair limitations",
+            "description": "Services are provided as available, with legal limits as permitted by law."
+          }
+        ]
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-3",
+        "heading": "1) Acceptance",
+        "body": "These Terms govern access to Harmony Hope Foundation websites, forms, and related digital services.\n\nIf you do not agree, please discontinue use.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-4",
+        "heading": "2) Eligibility",
+        "body": "You must be at least 13 years old, or the legal minimum age in your jurisdiction, to use these services.\n\nUsers under 18 should use the services with parent or guardian permission.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-5",
+        "heading": "3) Acceptable Use",
+        "body": "You agree to use the services in lawful, respectful ways and not to misuse, disrupt, scrape, or attempt unauthorized access to systems.\n\nYou may not use the services to harm others, spread abuse, or misrepresent the Foundation.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-6",
+        "heading": "4) Content and Intellectual Property",
+        "body": "Unless otherwise noted, site content and branding belong to Harmony Hope Foundation or its licensors.\n\nYou may view and share content for personal, educational, or nonprofit-support purposes, but not in ways that imply false endorsement.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-7",
+        "heading": "5) Third-Party Services",
+        "body": "Some features may rely on third-party services (for example payment, analytics, or communications tools).\n\nYour use of third-party services is subject to their own terms and privacy practices.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-8",
+        "heading": "6) Service Availability",
+        "body": "We aim for reliable service but cannot guarantee uninterrupted access at all times.\n\nWe may modify, suspend, or discontinue features when necessary.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-9",
+        "heading": "7) Disclaimers and Liability",
+        "body": "Services are provided on an “as is” and “as available” basis.\n\nTo the extent allowed by law, we disclaim implied warranties and limit liability for indirect or consequential damages arising from use of the services.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-10",
+        "heading": "8) Changes to Terms",
+        "body": "We may update these Terms as our services evolve. Continued use after updates indicates acceptance of the revised Terms.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-11",
+        "variant": "banner",
+        "heading": "Questions about these terms?",
+        "description": "Our team is available to help clarify policy and participation requirements.",
+        "primaryCta": {
+          "label": "Contact Support",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Read Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-12",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "Foundation",
+            "links": [
+              { "label": "Our Story", "href": "/testimony" },
+              { "label": "Programs", "href": "/support-center" },
+              { "label": "Impact Journal", "href": "/blog" }
+            ]
+          },
+          {
+            "title": "Get Involved",
+            "links": [
+              { "label": "Donate / Volunteer", "href": "/support-center" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy Policy", "href": "/privacy-policy" },
+              { "label": "Terms of Service", "href": "/terms-of-service" }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
