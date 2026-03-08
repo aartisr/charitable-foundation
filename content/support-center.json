@@ -1,0 +1,298 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Our Story", "href": "/testimony" },
+          { "label": "Programs", "href": "/support-center" },
+          { "label": "Impact Journal", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" }
+        ],
+        "ctaButton": {
+          "label": "Join the Mission",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "editorial",
+        "heading": "Match Desk: Connect those who need help with donors and volunteers who can help",
+        "subheading": "Fast, practical, dignity-first matching",
+        "description": "Use one simple request form. We triage every submission into the right lane—Need Help, Offer Help, or Partner Request—and connect people quickly with accountable follow-through.",
+        "highlights": [
+          { "text": "Two-sided intake: request support or offer support" },
+          { "text": "24-hour first response target for all valid submissions" },
+          { "text": "Priority triage for urgent needs and high-capacity offers" }
+        ],
+        "proofPoints": [
+          { "value": "2", "label": "Primary matching lanes" },
+          { "value": "24h", "label": "First-response target" },
+          { "value": "48h", "label": "Typical first-match window" }
+        ],
+        "primaryCta": {
+          "label": "Start Match Request",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "See How Matching Works",
+          "href": "/support-center"
+        },
+        "image": "",
+        "imageAlt": "Support and partnership",
+        "animation": "fade-in",
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-2",
+        "heading": "How the Match Desk works (simple and practical)",
+        "body": "Step 1: Submit one form and clearly choose your intent: Need Help or Offer Help.\n\nStep 2: Our coordinators triage requests by urgency, location, and support type.\n\nStep 3: We connect both sides with clear next actions, timelines, and a single accountability owner.",
+        "image": "",
+        "imageAlt": "Support workflow",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-3",
+        "heading": "Two-sided matching lanes",
+        "description": "Whether you need support or want to provide it, each lane is designed for quick routing and clear expectations.",
+        "columns": 2,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "🆘",
+            "title": "Need Help Lane",
+            "description": "Families, individuals, or charities can request support with urgency level, location, and type of help needed."
+          },
+          {
+            "icon": "🤝",
+            "title": "Offer Help Lane",
+            "description": "Donors and volunteers can offer funds, skills, or time with availability, capacity, and preferred cause area."
+          },
+          {
+            "icon": "🧭",
+            "title": "Coordinator Triage",
+            "description": "Each request is reviewed for fit, urgency, and safety so matching decisions are practical and responsible."
+          },
+          {
+            "icon": "📬",
+            "title": "Accountable Follow-Up",
+            "description": "Both sides receive clear next steps, timeline updates, and one coordinator contact for continuity."
+          }
+        ]
+      }
+    },
+    {
+      "type": "TimelineSection",
+      "props": {
+        "id": "TimelineSection-3b",
+        "heading": "48-hour connection workflow",
+        "description": "A practical process built for speed, quality, and trust.",
+        "variant": "alternating",
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "items": [
+          {
+            "year": "Hour 0",
+            "title": "Submit Structured Request",
+            "description": "You submit intent, support type, location, capacity/urgency, and contact details in one form.",
+            "image": ""
+          },
+          {
+            "year": "Within 24h",
+            "title": "Coordinator Triage",
+            "description": "Our team validates details, prioritizes urgent cases, and prepares a best-fit matching shortlist.",
+            "image": ""
+          },
+          {
+            "year": "Within 48h",
+            "title": "First Connection",
+            "description": "We introduce qualified donors/volunteers to verified needs or route partner requests with clear expectations.",
+            "image": ""
+          },
+          {
+            "year": "Ongoing",
+            "title": "Track and Close Loop",
+            "description": "We confirm progress, share updates, and document outcomes to keep future matching faster and smarter.",
+            "image": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-3c",
+        "heading": "What can be matched through this website",
+        "description": "Choose the exact support format so we can connect both sides quickly.",
+        "columns": 2,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "💸",
+            "title": "Financial Support Match",
+            "description": "Connect donors to verified needs with budget range, intended use, and reporting expectations."
+          },
+          {
+            "icon": "🧠",
+            "title": "Skills-Based Volunteer Match",
+            "description": "Route professionals to charities needing expertise in teaching, design, operations, communications, or tech."
+          },
+          {
+            "icon": "⏱️",
+            "title": "Time-Based Volunteer Match",
+            "description": "Match volunteers by weekly availability, on-site or remote preference, and program urgency."
+          },
+          {
+            "icon": "🏥",
+            "title": "Urgent Need Routing",
+            "description": "Flag emergency or high-priority requests so coordinators can escalate and respond first."
+          }
+        ]
+      }
+    },
+    {
+      "type": "FAQSection",
+      "props": {
+        "id": "FAQSection-4",
+        "heading": "Matching FAQ",
+        "description": "Everything needed to connect both sides with less friction.",
+        "faqs": [
+          {
+            "question": "How fast do you respond to a new request?",
+            "answer": "Our target is a first response within 24 hours for complete submissions. Urgent requests are triaged first."
+          },
+          {
+            "question": "Can this form be used by both people needing help and people offering help?",
+            "answer": "Yes. Select your intent clearly in the form and we route to the right matching lane."
+          },
+          {
+            "question": "What details improve matching quality?",
+            "answer": "Intent, location, support type, urgency or capacity, and preferred timeline are the most useful fields."
+          },
+          {
+            "question": "How are urgent requests handled?",
+            "answer": "Urgent requests are flagged during triage and moved to priority routing with faster coordinator follow-up."
+          },
+          {
+            "question": "Can donors specify preferred causes or boundaries?",
+            "answer": "Yes. Donors can provide cause preferences, budget range, and any constraints in their request."
+          },
+          {
+            "question": "Can volunteers serve remotely?",
+            "answer": "Yes. Include remote preference and skills so we can route you to suitable opportunities."
+          },
+          {
+            "question": "How do charities or community groups request support?",
+            "answer": "Choose Need Help in the form, include organization details, request type, and timeline."
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContactForm",
+      "props": {
+        "id": "ContactForm-5",
+        "heading": "Submit your Match Desk request",
+        "description": "This single form connects both sides: people/charities needing help and donors/volunteers offering help.",
+        "fields": [
+          { "name": "full_name", "label": "Full Name", "type": "text", "required": true },
+          { "name": "email", "label": "Email Address", "type": "email", "required": true },
+          { "name": "phone", "label": "Phone / WhatsApp (optional)", "type": "tel", "required": false },
+          { "name": "intent", "label": "Intent (Need Help / Offer Help / Partner Request)", "type": "text", "required": true },
+          { "name": "location", "label": "City / Region", "type": "text", "required": true },
+          { "name": "support_type", "label": "Support Type (Funds / Skills / Time / Essentials / Other)", "type": "text", "required": true },
+          { "name": "capacity_or_urgency", "label": "Capacity or Urgency (e.g., budget, hours/week, immediate need)", "type": "text", "required": true },
+          { "name": "timeline", "label": "Preferred Timeline", "type": "text", "required": true },
+          { "name": "organization_name", "label": "Organization Name (if applicable)", "type": "text", "required": false },
+          { "name": "message", "label": "Details we should know to make the best match", "type": "textarea", "required": true }
+        ],
+        "submitEndpoint": "/api/support",
+        "submitLabel": "Submit Match Request",
+        "successMessage": "Request received. A Match Desk coordinator will review and respond with next steps within 24 hours."
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-6",
+        "variant": "split",
+        "heading": "Ready to connect help with need?",
+        "description": "If you can give, volunteer, or partner—or if you need urgent support—submit one match request and we’ll route it quickly.",
+        "primaryCta": {
+          "label": "Submit Match Request",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Read Transparency",
+          "href": "/privacy-policy"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-7",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "Foundation",
+            "links": [
+              { "label": "Our Story", "href": "/testimony" },
+              { "label": "Programs", "href": "/support-center" },
+              { "label": "Impact Journal", "href": "/blog" }
+            ]
+          },
+          {
+            "title": "Get Involved",
+            "links": [
+              { "label": "Donate / Volunteer", "href": "/support-center" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy Policy", "href": "/privacy-policy" },
+              { "label": "Terms of Service", "href": "/terms-of-service" }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
