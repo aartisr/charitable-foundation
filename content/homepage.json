@@ -1,0 +1,489 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/1F4D8F/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Founders", "href": "/testimony" },
+          { "label": "Impact", "href": "/support-center" },
+          { "label": "Stories", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" },
+          { "label": "FAQ", "href": "/support-center" }
+        ],
+        "ctaButton": {
+          "label": "Become a Monthly Donor",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "editorial",
+        "heading": "One mission. Many hearts. Together, we keep care flowing every month.",
+        "subheading": "Harmony Hope Foundation",
+        "description": "Choose how you want to help—or get help. Monthly donors, volunteers, and partner charities are matched through practical coordination that delivers dignified support for children and families.",
+        "highlights": [
+          { "text": "Volunteers and donors can start in minutes" },
+          { "text": "Help seekers and charities get routed to the right lane quickly" },
+          { "text": "Transparent updates show outcomes, gaps, and next priorities" }
+        ],
+        "proofPoints": [
+          { "value": "100+", "label": "Active volunteers supporting delivery" },
+          { "value": "12", "label": "Community programs currently running" },
+          { "value": "52+", "label": "Weekly direct service touchpoints" }
+        ],
+        "primaryCta": {
+          "label": "Donate Monthly",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Volunteer or Offer Help",
+          "href": "/support-center?intent=offer_help"
+        },
+        "image": "/hero-collaboration-care.svg",
+        "imageAlt": "Volunteers, donors, help seekers, and coordinators working together in care",
+        "animation": "fade-in",
+        "royalStyle": "corners"
+      }
+    },
+    {
+      "type": "StatsCounter",
+      "props": {
+        "id": "StatsCounter-2",
+        "animation": "scale-in",
+        "stats": [
+          {
+            "value": "100",
+            "label": "Volunteer Network",
+            "prefix": "",
+            "suffix": "+"
+          },
+          {
+            "value": "12",
+            "label": "Active Programs",
+            "prefix": "",
+            "suffix": ""
+          },
+          {
+            "value": "52",
+            "label": "Weekly Care Actions",
+            "prefix": "",
+            "suffix": "+"
+          },
+          {
+            "value": "100",
+            "label": "Commitment to Reporting",
+            "prefix": "",
+            "suffix": "%"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-3",
+        "heading": "What your monthly gift helps sustain",
+        "description": "Recurring support helps us plan better, respond faster, and serve consistently.",
+        "columns": 3,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "🍲",
+            "title": "Essential Support Every Week",
+            "description": "Food kits, care resources, and urgent family support delivered consistently across the month."
+          },
+          {
+            "icon": "📘",
+            "title": "Education & Mentoring Continuity",
+            "description": "Tutoring and mentoring that stay reliable instead of stop-start, helping children build confidence."
+          },
+          {
+            "icon": "🩺",
+            "title": "Wellbeing Access",
+            "description": "Predictable support for preventive care and mental wellness referrals through local partners."
+          },
+          {
+            "icon": "🤝",
+            "title": "Volunteer Delivery",
+            "description": "Trained volunteers deliver services with consistency, safeguarding, and dignity-first standards."
+          },
+          {
+            "icon": "📊",
+            "title": "Transparent Reporting",
+            "description": "We share regular updates so donors can track delivery, outcomes, and upcoming priorities."
+          },
+          {
+            "icon": "🔁",
+            "title": "Sustainable Follow-through",
+            "description": "Recurring funding enables better planning and durable, community-owned outcomes over time."
+          }
+        ]
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-4",
+        "heading": "A donor trust promise you can verify",
+        "body": "We exist to make kindness practical, measurable, and repeatable.\n\nOur team works with communities to identify real priorities, deploy support with dignity, and share transparent updates so every donor understands how their giving creates change.\n\nWhen you choose monthly giving, you help us plan responsibly, serve consistently, and report clearly on real outcomes.",
+        "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1600&q=80",
+        "imageAlt": "Team members and volunteers planning support programs",
+        "reverse": true,
+        "animation": "fade-in",
+        "royalStyle": "corners",
+        "stats": [
+          {
+            "value": "Dignity-First",
+            "label": "Program Design"
+          },
+          {
+            "value": "Evidence-Informed",
+            "label": "Execution"
+          },
+          {
+            "value": "Transparent",
+            "label": "Stewardship"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-4a",
+        "heading": "Match Desk: from intention to action",
+        "description": "Need support, want to volunteer, or want to donate? One simple request routes every person to the right next step.",
+        "columns": 3,
+        "animation": "fade-in",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "🆘",
+            "title": "Need Help",
+            "description": "Families and charities can request support with urgency, location, and timeline so coordinators can route faster."
+          },
+          {
+            "icon": "🤝",
+            "title": "Offer Help",
+            "description": "Donors and volunteers can offer funds, skills, or time based on capacity, cause preference, and availability."
+          },
+          {
+            "icon": "🧭",
+            "title": "Coordinator Match Desk",
+            "description": "Every valid request is triaged with a 24-hour first-response target and accountable follow-through updates."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-4a",
+        "variant": "split",
+        "heading": "Need help or ready to help?",
+        "description": "Choose your lane and our Match Desk coordinates the first response within 24 hours for valid requests.",
+        "primaryCta": {
+          "label": "Request Help",
+          "href": "/support-center?intent=need_help"
+        },
+        "secondaryCta": {
+          "label": "Offer Help",
+          "href": "/support-center?intent=offer_help"
+        },
+        "royalStyle": "corners"
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-4b",
+        "heading": "Meet the founding members",
+        "description": "Donor confidence grows when leadership is visible and accountable. Our founding members pair compassion with disciplined stewardship so support reaches families consistently.",
+        "columns": 2,
+        "animation": "fade-in",
+        "royalStyle": "corners",
+        "features": [
+          {
+            "icon": "🕊️",
+            "title": "Subasri Dorairaj — Founding Member",
+            "description": "Guides mission integrity and beneficiary-first planning. Subasri ensures programs stay grounded in real community priorities, dignity-centered delivery, and measurable usefulness to families served."
+          },
+          {
+            "icon": "🤍",
+            "title": "Bethie Elisheva Grzegorzewski — Founding Member",
+            "description": "Guides donor stewardship and communication standards. Bethie ensures supporters receive clear updates, transparent use-of-funds context, and consistent follow-through from contribution to impact."
+          },
+          {
+            "icon": "🧾",
+            "title": "Founder Stewardship Covenant",
+            "description": "Together, the founders review priorities, safeguard execution quality, and insist on clear reporting of outcomes, gaps, and next-step needs."
+          },
+          {
+            "icon": "🌍",
+            "title": "Why this compels recurring giving",
+            "description": "Visible leadership reduces donor uncertainty, increases trust, and helps monthly supporters stay committed to long-term, stable community impact."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-4c",
+        "variant": "banner",
+        "heading": "Give monthly with confidence",
+        "description": "Support founder-led, accountability-first delivery that turns recurring generosity into stable care for children and families.",
+        "primaryCta": {
+          "label": "Become a Monthly Donor",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Meet the Founders",
+          "href": "/testimony"
+        },
+        "royalStyle": "corners"
+      }
+    },
+    {
+      "type": "TimelineSection",
+      "props": {
+        "id": "TimelineSection-5",
+        "heading": "From monthly gift to measurable impact",
+        "description": "A clear pathway designed for accountability and speed.",
+        "variant": "alternating",
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "items": [
+          {
+            "year": "Step 1",
+            "title": "Community Need Validation",
+            "description": "Local teams identify and validate urgent needs with beneficiary and partner input.",
+            "image": ""
+          },
+          {
+            "year": "Step 2",
+            "title": "Resource Allocation",
+            "description": "Funds are assigned to defined program priorities with measurable delivery targets.",
+            "image": ""
+          },
+          {
+            "year": "Step 3",
+            "title": "Program Delivery",
+            "description": "Volunteers and partners execute services with safeguarding and quality controls.",
+            "image": ""
+          },
+          {
+            "year": "Step 4",
+            "title": "Donor Reporting & Next-Step Planning",
+            "description": "Supporters receive transparent updates, impact stories, and upcoming priorities shaped by field realities.",
+            "image": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "TestimonialsSection",
+      "props": {
+        "id": "TestimonialsSection-6",
+        "heading": "Why monthly donors stay with us",
+        "royalStyle": "none",
+        "testimonials": [
+          {
+            "quote": "I started with a small monthly gift and stayed because every update was clear, honest, and specific.",
+            "name": "Asha",
+            "role": "Monthly Donor",
+            "avatar": ""
+          },
+          {
+            "quote": "Their team listens to families first, then designs support that actually fits local reality.",
+            "name": "Maya",
+            "role": "Community Participant",
+            "avatar": ""
+          },
+          {
+            "quote": "Volunteer effort and donor funds are tightly coordinated. You can feel the operational discipline.",
+            "name": "Daniel",
+            "role": "Volunteer Lead",
+            "avatar": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "BlogSection",
+      "props": {
+        "id": "BlogSection-7",
+        "anchorId": "stories",
+        "heading": "Recent impact stories",
+        "description": "See what changed on the ground and what donors made possible.",
+        "posts": [
+          {
+            "title": "Building a Student Portfolio: Confidence Through Mentorship",
+            "excerpt": "How targeted mentoring helped students present their strengths and access new opportunities.",
+            "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=1600&q=80",
+            "imageAlt": "Students reviewing educational materials",
+            "date": "2026-03-06",
+            "href": "/blog/building-a-student-portfolio"
+          },
+          {
+            "title": "Research to Shipping: How Local Input Shapes Program Delivery",
+            "excerpt": "Why our execution model starts with listening, then rapidly translates needs into practical interventions.",
+            "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1600&q=80",
+            "imageAlt": "Community team meeting for program planning",
+            "date": "2026-02-20",
+            "href": "/blog/research-to-shipping"
+          },
+          {
+            "title": "Why Clear Reporting Increases Long-Term Donor Confidence",
+            "excerpt": "A closer look at how transparency improves retention, trust, and repeat giving behavior.",
+            "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80",
+            "imageAlt": "Program review and impact documentation",
+            "date": "2026-01-28",
+            "href": "/blog/why-clear-writing-improves-code"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FAQSection",
+      "props": {
+        "id": "FAQSection-8",
+        "heading": "Donor FAQ",
+        "description": "Quick answers to help you start recurring giving with confidence.",
+        "faqs": [
+          {
+            "question": "What does my donation support first?",
+            "answer": "Your contribution supports active priorities in family essentials, education support, and wellbeing access according to current community-validated needs."
+          },
+          {
+            "question": "Why is monthly giving emphasized?",
+            "answer": "Monthly giving improves planning reliability, allowing teams to sustain programs consistently instead of operating in stop-start cycles."
+          },
+          {
+            "question": "How do I verify impact?",
+            "answer": "We share regular updates on delivery milestones, outputs, and outcomes so you can track progress clearly over time."
+          },
+          {
+            "question": "Can I start small and increase later?",
+            "answer": "Yes. Many supporters begin with a small recurring amount and increase as they see results and alignment with the mission."
+          },
+          {
+            "question": "Can I pause or cancel a monthly gift anytime?",
+            "answer": "Yes. You can manage recurring donations based on your circumstances; flexibility helps supporters stay engaged long-term."
+          },
+          {
+            "question": "Can I also volunteer after donating?",
+            "answer": "Absolutely. Donors can participate through flexible volunteer pathways, including field and remote support roles."
+          },
+          {
+            "question": "Where can I read your policies and governance details?",
+            "answer": "Visit our transparency and policy pages for governance information, operating principles, and legal documentation."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-9",
+        "variant": "split",
+        "heading": "Take your next step in under a minute",
+        "description": "Donate monthly, offer volunteer support, or connect a verified need—every action helps families receive reliable care all year.",
+        "primaryCta": {
+          "label": "Donate Monthly",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Request or Offer Help",
+          "href": "/support-center"
+        },
+        "royalStyle": "corners"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-10",
+        "logo": "https://placehold.co/120x120/1F4D8F/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "About",
+            "links": [
+              {
+                "label": "Our Story",
+                "href": "/testimony"
+              },
+              {
+                "label": "Founding Members",
+                "href": "/testimony"
+              },
+              {
+                "label": "Programs",
+                "href": "/support-center"
+              },
+              {
+                "label": "Impact Journal",
+                "href": "/blog"
+              }
+            ]
+          },
+          {
+            "title": "Take Action",
+            "links": [
+              {
+                "label": "Become a Monthly Donor",
+                "href": "/support-center"
+              },
+              {
+                "label": "Make One-Time Gift",
+                "href": "/support-center"
+              },
+              {
+                "label": "Volunteer",
+                "href": "/support-center"
+              }
+            ]
+          },
+          {
+            "title": "Trust & Legal",
+            "links": [
+              {
+                "label": "Privacy Policy",
+                "href": "/privacy-policy"
+              },
+              {
+                "label": "Terms of Service",
+                "href": "/terms-of-service"
+              }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
