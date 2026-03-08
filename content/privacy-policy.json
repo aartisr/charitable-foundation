@@ -1,0 +1,265 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Our Story", "href": "/testimony" },
+          { "label": "Programs", "href": "/support-center" },
+          { "label": "Impact Journal", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" }
+        ],
+        "ctaButton": {
+          "label": "Join the Mission",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "minimal-type",
+        "heading": "Privacy Policy",
+        "subheading": "Harmony Hope Foundation",
+        "description": "We treat personal information with the same care we bring to community service: responsibly, transparently, and with respect.",
+        "highlights": [
+          { "text": "No sale of personal data" },
+          { "text": "Clear purpose for every data category" },
+          { "text": "Accessible rights and contact pathways" }
+        ],
+        "proofPoints": [
+          { "value": "0", "label": "Personal data sold" },
+          { "value": "13+", "label": "Minimum platform age" },
+          { "value": "1", "label": "Privacy promise: dignity and trust" }
+        ],
+        "primaryCta": {
+          "label": "Contact Support",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Terms of Service",
+          "href": "/terms-of-service"
+        },
+        "image": "",
+        "imageAlt": "Privacy",
+        "animation": "fade-in",
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-2",
+        "heading": "Privacy at a Glance",
+        "description": "Our privacy standards are built for donor trust and participant safety.",
+        "columns": 2,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "🛡️",
+            "title": "No data sale",
+            "description": "We do not sell personal information to third parties."
+          },
+          {
+            "icon": "🔍",
+            "title": "Purpose-limited use",
+            "description": "Information is used only to operate programs, respond to requests, and improve service quality."
+          },
+          {
+            "icon": "📦",
+            "title": "Minimal retention",
+            "description": "We retain information only as long as necessary for legal, operational, and security needs."
+          },
+          {
+            "icon": "✅",
+            "title": "Rights and control",
+            "description": "You may request access, correction, deletion, or restriction where applicable by law."
+          }
+        ]
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-3",
+        "heading": "1) Scope",
+        "body": "This Privacy Policy applies to Harmony Hope Foundation websites, forms, and related services used for donations, volunteering, support requests, and communications.\n\nIt does not govern third-party platforms linked from our website.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-4",
+        "heading": "2) Information We Collect",
+        "body": "We may collect contact details (such as name and email), request details submitted through forms, donation-related details processed by secure payment providers, and basic technical usage data (such as browser type and approximate location from IP).\n\nWe collect only what is reasonably necessary to deliver and improve services.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-5",
+        "heading": "3) How We Use Information",
+        "body": "We use information to respond to requests, coordinate volunteering, process support communications, share impact updates, maintain website security, and improve supporter experience.\n\nWhere feasible, we use aggregated or de-identified data for learning and reporting.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-6",
+        "heading": "4) Information Sharing",
+        "body": "We may share information with trusted service providers (for hosting, analytics, communications, and secure payment processing) under contractual safeguards.\n\nWe may also disclose information when required by law or to protect safety, rights, and platform integrity.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-7",
+        "heading": "5) Data Retention and Security",
+        "body": "We apply reasonable administrative and technical safeguards to protect information.\n\nNo internet-based system is fully risk-free, but we continuously improve our controls and retain data only as long as needed for legitimate purposes.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-8",
+        "heading": "6) Your Rights",
+        "body": "Depending on applicable law, you may have rights to access, correct, delete, restrict, or export your personal information.\n\nTo make a request, contact us through our Support Center and include enough detail for verification.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-9",
+        "heading": "7) Children’s Privacy",
+        "body": "Our services are not directed to children under 13. If we learn that personal data from a child was collected without proper consent, we will take reasonable steps to remove it.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": false,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-10",
+        "heading": "8) Policy Updates",
+        "body": "We may update this policy as our services evolve. Material updates will be reflected by publishing the revised version on this page.",
+        "image": "",
+        "imageAlt": "",
+        "reverse": true,
+        "animation": "none",
+        "royalStyle": "none",
+        "stats": []
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-11",
+        "variant": "banner",
+        "heading": "Questions about privacy?",
+        "description": "Reach out through Support Center and our team will help with care and clarity.",
+        "primaryCta": {
+          "label": "Contact Support",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Read Terms",
+          "href": "/terms-of-service"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-12",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "Foundation",
+            "links": [
+              { "label": "Our Story", "href": "/testimony" },
+              { "label": "Programs", "href": "/support-center" },
+              { "label": "Impact Journal", "href": "/blog" }
+            ]
+          },
+          {
+            "title": "Get Involved",
+            "links": [
+              { "label": "Donate / Volunteer", "href": "/support-center" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy Policy", "href": "/privacy-policy" },
+              { "label": "Terms of Service", "href": "/terms-of-service" }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
