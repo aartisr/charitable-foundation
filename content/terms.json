@@ -1,0 +1,110 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Our Story", "href": "/testimony" },
+          { "label": "Programs", "href": "/support-center" },
+          { "label": "Impact Journal", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" }
+        ],
+        "ctaButton": {
+          "label": "Join the Mission",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "minimal-type",
+        "heading": "Terms (Legacy Route)",
+        "subheading": "Harmony Hope Foundation",
+        "description": "This page is maintained for compatibility. Please use our Terms of Service page for current legal terms.",
+        "primaryCta": {
+          "label": "Open Terms of Service",
+          "href": "/terms-of-service"
+        },
+        "secondaryCta": {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        "image": "",
+        "imageAlt": "Terms legacy route",
+        "animation": "fade-in",
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-2",
+        "variant": "banner",
+        "heading": "Continue to the latest legal pages",
+        "description": "For current terms and privacy details, use the links below.",
+        "primaryCta": {
+          "label": "Terms of Service",
+          "href": "/terms-of-service"
+        },
+        "secondaryCta": {
+          "label": "Privacy Policy",
+          "href": "/privacy-policy"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-3",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "Foundation",
+            "links": [
+              { "label": "Our Story", "href": "/testimony" },
+              { "label": "Programs", "href": "/support-center" },
+              { "label": "Impact Journal", "href": "/blog" }
+            ]
+          },
+          {
+            "title": "Get Involved",
+            "links": [
+              { "label": "Donate / Volunteer", "href": "/support-center" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy Policy", "href": "/privacy-policy" },
+              { "label": "Terms of Service", "href": "/terms-of-service" }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
