@@ -1,0 +1,92 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Academic research and kindness hero illustration</title>
+  <desc id="desc">An illustration with books, research charts, microscope, and a kindness heart icon in a calm scholarly palette.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EEF3FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2457D6"/>
+      <stop offset="1" stop-color="#4F7FFF"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9941A"/>
+      <stop offset="1" stop-color="#E5B84A"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1F3A8A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <circle cx="1450" cy="120" r="180" fill="#DCE7FF" opacity="0.55"/>
+  <circle cx="170" cy="760" r="210" fill="#E5EEFF" opacity="0.65"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="130" width="1360" height="640" rx="32" fill="url(#card)"/>
+  </g>
+
+  <!-- Left block: academic + research -->
+  <g>
+    <rect x="190" y="220" width="500" height="420" rx="24" fill="#FFFFFF" stroke="#D6E1FF"/>
+    <text x="230" y="280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#14346E">Academic Research</text>
+    <text x="230" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#31518D">Clarity • Evidence • Progress</text>
+
+    <!-- Chart -->
+    <polyline points="230,515 300,470 360,488 430,430 500,450 570,380" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="230" cy="515" r="8" fill="#2457D6"/>
+    <circle cx="300" cy="470" r="8" fill="#2457D6"/>
+    <circle cx="360" cy="488" r="8" fill="#2457D6"/>
+    <circle cx="430" cy="430" r="8" fill="#2457D6"/>
+    <circle cx="500" cy="450" r="8" fill="#2457D6"/>
+    <circle cx="570" cy="380" r="8" fill="#2457D6"/>
+
+    <!-- Books -->
+    <rect x="230" y="555" width="130" height="20" rx="10" fill="#2C4FA0"/>
+    <rect x="230" y="582" width="160" height="20" rx="10" fill="#3D62BA"/>
+    <rect x="230" y="609" width="145" height="20" rx="10" fill="#5177D3"/>
+  </g>
+
+  <!-- Center block: microscope/research icon -->
+  <g>
+    <rect x="740" y="220" width="300" height="420" rx="24" fill="#FFFFFF" stroke="#D6E1FF"/>
+    <g transform="translate(795 315)">
+      <path d="M86 14L116 44L98 62L68 32L86 14Z" fill="#2E59C8"/>
+      <rect x="52" y="54" width="24" height="140" rx="12" transform="rotate(-35 52 54)" fill="#416DD8"/>
+      <path d="M88 194C122 194 150 222 150 256H98C98 243 87 232 74 232H46V194H88Z" fill="#2F4FA6"/>
+      <rect x="22" y="256" width="182" height="20" rx="10" fill="#29448E"/>
+      <rect x="70" y="276" width="86" height="18" rx="9" fill="#3E61B6"/>
+      <circle cx="152" cy="118" r="20" fill="#CDE0FF" stroke="#3C63C0" stroke-width="6"/>
+    </g>
+  </g>
+
+  <!-- Right block: kindness and collaboration -->
+  <g>
+    <rect x="1090" y="220" width="320" height="420" rx="24" fill="#FFFFFF" stroke="#F0E2BB"/>
+    <text x="1132" y="280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#6F4A0E">Kindness</text>
+    <text x="1132" y="320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#8A651F">Care • Inclusion • Growth</text>
+
+    <!-- Heart with spark -->
+    <path d="M1250 520C1220 492 1175 468 1175 425C1175 393 1200 368 1230 368C1250 368 1268 378 1280 395C1292 378 1310 368 1330 368C1360 368 1385 393 1385 425C1385 468 1340 492 1310 520L1280 548L1250 520Z" fill="url(#gold)"/>
+    <path d="M1279 365L1289 388L1314 391L1295 407L1300 432L1279 420L1258 432L1263 407L1244 391L1269 388L1279 365Z" fill="#FFF7E1"/>
+
+    <!-- People / collaboration dots -->
+    <circle cx="1170" cy="590" r="16" fill="#3E63C0"/>
+    <circle cx="1215" cy="590" r="16" fill="#5A7EDA"/>
+    <circle cx="1260" cy="590" r="16" fill="#7B99E6"/>
+    <rect x="1152" y="614" width="126" height="16" rx="8" fill="#CAD8FF"/>
+  </g>
+
+  <!-- bottom tagline stripe -->
+  <rect x="120" y="700" width="1360" height="70" fill="#F4F8FF"/>
+  <text x="800" y="745" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" fill="#204089">
+    Learning with Rigor • Research with Integrity • Building with Kindness
+  </text>
+</svg>
