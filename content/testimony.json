@@ -1,0 +1,259 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Header",
+      "props": {
+        "id": "Header-0",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "navStyle": "flat",
+        "navItems": [
+          { "label": "Home", "href": "/" },
+          { "label": "Founders", "href": "/testimony" },
+          { "label": "Our Story", "href": "/testimony" },
+          { "label": "Programs", "href": "/support-center" },
+          { "label": "Impact Journal", "href": "/blog" },
+          { "label": "Transparency", "href": "/privacy-policy" }
+        ],
+        "ctaButton": {
+          "label": "Become a Monthly Donor",
+          "href": "/support-center"
+        },
+        "sticky": true
+      }
+    },
+    {
+      "type": "HeroSection",
+      "props": {
+        "id": "HeroSection-1",
+        "variant": "editorial",
+        "heading": "Stories of Kindness and Love",
+        "subheading": "From Our Volunteers and Community",
+        "description": "These stories show what happens when compassion meets consistency: trust grows, dignity is restored, and hope becomes practical.",
+        "highlights": [
+          { "text": "Community voices first, always" },
+          { "text": "Real outcomes, not performative storytelling" },
+          { "text": "Respectful, dignity-centered narratives" }
+        ],
+        "proofPoints": [
+          { "value": "300+", "label": "Families reached through community circles" },
+          { "value": "52", "label": "Weekly volunteer actions" },
+          { "value": "1", "label": "Core ethic: love with accountability" }
+        ],
+        "primaryCta": {
+          "label": "Support This Work",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Read Impact Journal",
+          "href": "/blog"
+        },
+        "image": "",
+        "imageAlt": "Community stories",
+        "animation": "fade-in",
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "AboutSection",
+      "props": {
+        "id": "AboutSection-1b",
+        "heading": "Founding members",
+        "body": "Subasri Dorairaj and Bethie Elisheva Grzegorzewski serve as founding members of Harmony Hope Foundation.\n\nTheir shared leadership ethic is clear: protect mission integrity, steward every contribution responsibly, and keep donor communication transparent from pledge to measurable field outcomes.\n\nFor supporters, visible founder leadership strengthens accountability and makes recurring giving more confident and sustainable.",
+        "image": "",
+        "imageAlt": "Founding members and leadership values",
+        "reverse": false,
+        "animation": "fade-in",
+        "royalStyle": "none",
+        "stats": [
+          {
+            "value": "Mission Integrity",
+            "label": "Leadership Priority"
+          },
+          {
+            "value": "Donor Stewardship",
+            "label": "Operational Standard"
+          },
+          {
+            "value": "Transparent Reporting",
+            "label": "Trust Commitment"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FeaturesGrid",
+      "props": {
+        "id": "FeaturesGrid-1c",
+        "heading": "Founder profiles donors can trust",
+        "description": "A high-trust donor experience starts with clear leadership ownership, disciplined stewardship, and transparent reporting.",
+        "columns": 2,
+        "animation": "slide-up",
+        "royalStyle": "none",
+        "features": [
+          {
+            "icon": "🕊️",
+            "title": "Subasri Dorairaj — Founding Member",
+            "description": "Focuses on mission integrity, beneficiary dignity, and program relevance. Subasri helps ensure initiatives are shaped by validated community needs rather than assumptions."
+          },
+          {
+            "icon": "🤍",
+            "title": "Bethie Elisheva Grzegorzewski — Founding Member",
+            "description": "Focuses on donor stewardship, clarity, and continuity. Bethie helps ensure supporters receive transparent updates and a clear line of sight from giving to field outcomes."
+          },
+          {
+            "icon": "🧾",
+            "title": "Shared Accountability",
+            "description": "The founders jointly review priorities, execution safeguards, and reporting quality so donors can trust both intent and implementation."
+          },
+          {
+            "icon": "📈",
+            "title": "Donor Assurance",
+            "description": "When founder leadership is visible and accountable, donors are more likely to give consistently and support long-term program continuity."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-1d",
+        "variant": "split",
+        "heading": "Partner with our founding vision",
+        "description": "Your monthly gift helps the founding members sustain transparent, dignity-first programs with consistent reporting and long-term impact.",
+        "primaryCta": {
+          "label": "Become a Monthly Donor",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "See Transparency",
+          "href": "/privacy-policy"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "StatsCounter",
+      "props": {
+        "id": "StatsCounter-2",
+        "animation": "scale-in",
+        "stats": [
+          { "value": "300", "label": "Families Supported", "prefix": "", "suffix": "+" },
+          { "value": "100", "label": "Active Volunteers", "prefix": "", "suffix": "+" },
+          { "value": "12", "label": "Programs in Motion", "prefix": "", "suffix": "" },
+          { "value": "100", "label": "Commitment to Dignity", "prefix": "", "suffix": "%" }
+        ]
+      }
+    },
+    {
+      "type": "TestimonialsSection",
+      "props": {
+        "id": "TestimonialsSection-3",
+        "heading": "Community Voices",
+        "royalStyle": "none",
+        "testimonials": [
+          {
+            "quote": "I came for emergency support and found people who treated my family with respect and warmth.",
+            "name": "Rina",
+            "role": "Parent Participant",
+            "avatar": ""
+          },
+          {
+            "quote": "Volunteering here changed me. Service feels organized, meaningful, and deeply human.",
+            "name": "Arun",
+            "role": "Volunteer",
+            "avatar": ""
+          },
+          {
+            "quote": "Their follow-up and transparency made me trust that my monthly donation truly matters.",
+            "name": "Elena",
+            "role": "Monthly Donor",
+            "avatar": ""
+          },
+          {
+            "quote": "What stands out is their listening. They adapt programs with the community, not for the community.",
+            "name": "Nadia",
+            "role": "Partner Organization Lead",
+            "avatar": ""
+          },
+          {
+            "quote": "The youth mentorship sessions helped my daughter rebuild confidence and stay in school.",
+            "name": "Samir",
+            "role": "Guardian",
+            "avatar": ""
+          },
+          {
+            "quote": "Every interaction reflects kindness with clear systems — heart and discipline together.",
+            "name": "Leah",
+            "role": "Community Coordinator",
+            "avatar": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTASection",
+      "props": {
+        "id": "CTASection-4",
+        "variant": "banner",
+        "heading": "Be Part of the Next Story",
+        "description": "Your support helps more families experience care, safety, and belonging.",
+        "primaryCta": {
+          "label": "Volunteer or Donate",
+          "href": "/support-center"
+        },
+        "secondaryCta": {
+          "label": "Explore Programs",
+          "href": "/support-center"
+        },
+        "royalStyle": "none"
+      }
+    },
+    {
+      "type": "Footer",
+      "props": {
+        "id": "Footer-5",
+        "logo": "https://placehold.co/120x120/FF7200/FFFFFF?text=HHF",
+        "logoAlt": "Harmony Hope Foundation",
+        "columns": [
+          {
+            "title": "Foundation",
+            "links": [
+              { "label": "Our Story", "href": "/testimony" },
+              { "label": "Founding Members", "href": "/testimony" },
+              { "label": "Programs", "href": "/support-center" },
+              { "label": "Impact Journal", "href": "/blog" }
+            ]
+          },
+          {
+            "title": "Get Involved",
+            "links": [
+              { "label": "Donate / Volunteer", "href": "/support-center" }
+            ]
+          },
+          {
+            "title": "Legal",
+            "links": [
+              { "label": "Privacy Policy", "href": "/privacy-policy" },
+              { "label": "Terms of Service", "href": "/terms-of-service" }
+            ]
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/"
+          },
+          {
+            "platform": "youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ],
+        "copyright": "© 2026 Harmony Hope Foundation. All rights reserved."
+      }
+    }
+  ]
+}
